@@ -1,0 +1,705 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+header .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+
+
+header nav{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+}
+
+header nav ul li a:hover{
+    color: blue;
+}
+
+header .loginsign{
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+
+header .loginsign ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.onlinepayment{
+    width: 100%;
+    height: 70vh;
+    background-image: url('/assets/img/online\ payment.png');
+}
+
+.onlinepayment h1{
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.onlinepayment p{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.get {
+    display: inline-block;
+}
+
+.two{
+    width: 100%;
+    height: 70vh;
+    
+    
+}
+
+.two .text1{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.two .text2{
+    margin-top: 20px;
+    margin-left: 520px;
+    display: block;
+}
+
+.two .box1{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.two .box1 .lorem{
+    margin-top: 10px;
+}
+
+.box1 .learnmore{
+    color: orange;
+}
+
+
+
+.two .box2{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.box2 .lorem1{
+    margin-top: 10px;
+}
+
+.box2 .learnmore{
+    color: green;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.two .box3{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.box3 .lorem2{
+    margin-top: 10px;
+}
+
+.box3 .learnmore{
+    color: green;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.two .box4{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.box4 .lorem3{
+    margin-top: 10px;
+}
+
+.box4 .learnmore{
+    margin-top: 10px;
+    color: green;
+    margin-left: 200px;
+}
+
+
+
+.three {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(241, 245, 246);
+    display: flex;
+}
+
+.three .box1{
+    width: 50%;
+    height: 80vh;
+    
+    
+}
+
+.three .box1 h1{
+    margin-left: 150px;
+    margin-top: 250px;
+}
+
+.three .box1 .lorem1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.three .box1 .lorem2{
+    margin-top: 40px;
+    margin-left: 400px;
+    color: green;
+}
+
+
+
+
+.three .box2{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.three .box2 .con-photo{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+  
+   
+    
+}
+
+.three .box2 .con-photo .photo{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 15px;
+}
+
+
+
+
+.four {
+
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    
+
+}
+
+.four .head{
+    width: 45%;
+    height: 20vh;
+    margin-top: 20px;
+    margin-left: 55vh;
+    justify-content: center;
+    
+}
+
+.four .head h1{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.four .head p{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.four .box1{
+    display: inline-block;
+    width: 20%;
+    height: 25vh;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: grey;
+    border: 1px solid grey;
+    
+
+}
+
+.four .box1 .footer{
+    width: 100%;
+    height: 19vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.four .box1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.four .box2{
+    display: inline-block;
+    width: 20%;
+    height: 25vh;
+    background-color: grey;
+    margin-left: 50px;
+    border: 1px solid grey;
+
+}
+
+.four .box2 .footer{
+    width: 100%;
+    height: 19vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.four .box2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.four .box3{
+    display: inline-block;
+    width: 20%;
+    height: 25vh;
+    background-color: grey;
+    margin-left: 50px;
+    border: 1px solid grey;
+}
+
+.four .box3 .footer{
+    width: 100%;
+    height: 19vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four .box3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.four .box4{
+    display: inline-block;
+    width: 20%;
+    height: 25vh;
+    background-color: grey;
+    margin-left: 50px;
+    border: 1px solid grey;
+}
+
+.four .box4 .footer{
+    width: 100%;
+    height: 19vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four .box4 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.four .option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 10vh;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 450px;
+    
+}
+
+.four .option h1{
+    color: green;
+}
+
+.five{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(241, 245, 246);
+    
+}
+
+.five .photo{
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+    margin-top: 110px;
+    margin-left: 30px;
+    background-color: darkturquoise;
+}
+
+.five .text{
+    display: inline-block;
+    width: 45%;
+    height: 40vh;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+
+.five .text .head{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.five .text .text1{
+    margin-top: 10px;
+}
+
+.five .text ul li{
+    margin: 40px;
+}
+
+.five .text a{
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+    color: green;
+}
+
+.five .text a :hover{
+    background-color: green;
+}
+   
+
+
+.six{
+    width: 100%;
+    height: 90vh;
+}
+
+.six .head{
+    display: inline-block;
+    width: 30%;
+    height: 15vh;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.six .head h1{
+    margin-left: 30px;
+}
+
+.six .head p{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.six .feedback1{
+    display: inline-block;
+    width: 40%;
+    height: 40vh;
+    margin-left: 100px;
+    border: 3px solid grey;
+}
+
+.six .feedback1 .comment{
+    width: 80%;
+    height: 30vh;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 60px;
+    
+}
+
+.six .feedback1 .comment h1{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+
+
+
+.six .feedback2{
+    display: inline-block;
+    width: 40%;
+    height: 40vh;
+    border: 3px solid grey;
+    margin-left: 50px;
+}
+
+.six .feedback2 .comment2{
+    width: 80%;
+    height: 30vh;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.six .feedback2 .comment2 h1{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.six .more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20vh;
+    margin-left: 350px;
+}
+
+
+.six .more h1 a{
+    color: green;
+}
+
+
+
+
+
+.seven{
+
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(56, 187, 101);
+}
+
+.seven .slogan{
+    display: inline-block;
+    width: 50%;
+    height: 10vh;
+    margin-left: 350px;
+    margin-top: 100px;
+    
+}
+
+.seven .slogan h1{
+    margin-left: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.seven .slogan p{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.seven .butbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 10vh;
+    margin-left: 550px;
+}
+
+.seven .butbox .button{
+
+        background-color: white;
+    
+        color: green;
+
+        padding: 10px 15px;
+    
+        font-size: 20px;
+    
+        cursor: pointer;
+    
+}
+
+
+
+
+
+.eight{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(241, 245, 246)
+}
+
+.eight .text{
+    display: inline-block;
+    width: 50%;
+    height: 10vh;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.eight .text h1{
+    margin-left: 300px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.eight .text p{
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.eight .appstore{
+    display: inline-block;
+    width: 20%;
+    height: 10vh;
+    margin-top: 60px;
+    margin-left: 510px;
+    
+}
+
+.eight .googleplay{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nine{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.nine .nav{
+    display: inline-block;
+    width: 30%;
+    height: 6vh;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.nine .nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nine .nav ul :hover{
+    color: green;
+}
+
+hr{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.nine .copyright{
+    display: inline-block;
+    width: 25%;
+    height: 7vh;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.nine .copyright p{
+    margin-left: 20px;
+}
+
+.nine .copyright a{
+    color: rgb(7, 216, 7);
+}
+
+.nine .nav2{
+    display: inline-block;
+    width: 18%;
+    height: 7vh;
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+.nine .nav2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nine .nav2 ul :hover{
+    color: green;
+}
